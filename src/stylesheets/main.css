@@ -1,11 +1,46 @@
 body{
     font-family: "Montserrat", sans-serif;
+    background-color: black;
 }
-
 header{
     background-color: #7598c5;
     padding: 20px;
     text-align: center;
-    color: rgb(231, 209, 148);
-    font-family: Apple Chancery, cursive;
+    border-radius: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffbe9e;
+    background: linear-gradient(12deg,rgba(255, 190, 158, 1) 0%, rgba(222, 74, 58, 1) 50%, rgba(217, 127, 9, 1) 100%);
+}
+nav{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 500px;
+}
+nav ul li a{
+    color:rgb(255, 98, 78);
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    float: left;
+
+}
+nav a:hover{
+    color:rgb(255, 159, 33);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+nav li{
+    text-align: center;
 }
