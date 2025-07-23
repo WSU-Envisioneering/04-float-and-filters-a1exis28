@@ -1,5 +1,11 @@
-img{
-    width: 100%;
-    height: auto;
-    
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: #7598c5;
+    padding: 20px;
+    text-align: center;
+    color: rgb(231, 209, 148);
+    font-family: Apple Chancery, cursive;
 }
