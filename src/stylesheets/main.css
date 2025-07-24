@@ -41,7 +41,35 @@ nav ul{
     text-align: center;
     
 }
-
 nav li{
     text-align: center;
 }
+article.spotsto-visit{
+    width: 90%;
+    padding: 1rem;
+    margin: 0 5px;
+    background-color: rgb(223, 95, 56);
+    color: rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 10px rgb(214, 122, 94);
+}
+@media all and (min-width: 600px){
+    article.spotsto-visit{
+        float: left;
+        width:calc((100% - 30px) / 3);
+    }
+}
+article.main-content{
+    width: 90%;
+    padding: 1rem;
+    margin: 5px;
+    background-color: rgb(223, 95, 56);
+    color: rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 10px rgb(214, 122, 94);
+}
+@media all and (min-width: 600px){}
+    article.main-content{
+        float: left;
+        width:calc((100% - 60px) / 3);
+    }
